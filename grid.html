@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            background-color: dodgerblue;
+            padding: 10px;
+        }
+        .container1 {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            background-color: dodgerblue;
+            column-gap: 20px;
+            padding: 10px;
+        }
+        .container2 {
+            display: grid;
+            grid-template-columns: 80px 200px auto;
+            background-color: dodgerblue;
+            column-gap: 5px;
+            row-gap: 5px;
+            padding: 10px;
+        }
+        .container div{
+            background-color: #f1f1f1;
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        .container1 div{
+            background-color: #f1f1f1;
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        .container2 div{
+            background-color: #f1f1f1;
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1> GRID LAYOUT </h1>
+    <p> A Grid Layout with 5 containers </p>
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+    </div>
+    <p> A Grid Layout with 4 containers</p>
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    <p> A Grid Layout with 4 containers with a column gap of 20px</p>
+    <div class="container1">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    <p> A Grid Layout with mixed length</p>
+    <div class="container2">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+
+    
+</body>
+</html>
